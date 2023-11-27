@@ -1,0 +1,113 @@
+body {
+  background: url('bg.jpg') 100%;
+  font: normal 100 18px "Roboto", sans-serif;
+}
+#logo {
+  height: 5px;
+ width:  5px;
+}
+#table1 {
+  margin: 0px;
+  border-color: blue;
+  float: right;
+right: 0;
+left: 0;
+top: 70;
+border-style: none;
+color: pink;
+}
+
+#menu-nav {
+  max-width: 1050px;
+  margin: 70px auto;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+ 
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#navigation-bar li {
+  float: left;
+  width: 20%;
+}
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+}
+#navigation-bar a {
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding:20px 0;
+  display: block;
+  position: relative;
+  transition: all 3s ease;
+}
+#navigation-bar a:hover {
+  color: #e74c3c;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #e74c3c;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+ 
+li {
+	list-style: none;
+}
+.content{
+  margin: 20px;
+  left: 70;
+  right: 70px;
+ color: #e74c3c;
+ text-align: center;
+ font-size: 20px;
+
+}
+#contactustext{
+  margin: 20px;
+  color: pink;
+  font-size: 20px;
+  text-align: right;
+float: right;
+  border-style: double;
+}
+#img{
+  background-image: url('q.jpg') no-repeat;
+  margin: 20px;
+  left: 70;
+  right: 70;
+  margin-top: 20px;
+}
+#img1{
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding:20px 0;
+  display: block;
+  position: relative;
+  
+}
+#btmtxt{
+  text-align: center;
+  color: #848484;
+  font-size: 20px;
+   margin: 50px;
+  margin-left: 50px
+margin-top: 100px;
+float: left;
+}
